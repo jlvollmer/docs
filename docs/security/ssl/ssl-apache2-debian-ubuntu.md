@@ -47,8 +47,8 @@ This guide assumes that you are running Apache 2.4 or higher on Debian 8 or Ubun
             ServerName www.example.com
             ServerAlias www.example2.com #If using alternate names for a host
 			DocumentRoot /var/www/html/example.com/public_html/
-            ErrorLog /var/www/html/example.com/log/error.log
-            CustomLog /var/www/html/example.com/log/access.log combined
+            ErrorLog /var/www/html/example.com/logs/error.log
+            CustomLog /var/www/html/example.com/logs/access.log combined
         </VirtualHost>
         ~~~
 
